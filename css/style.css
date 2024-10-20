@@ -3,8 +3,18 @@
 /* Header & Hero */
 
 body{
+    font-family: Sarabun;
     background-color: #245d9e;
     color: #e6efa6;
+}
+
+h1{
+    font-family: Silkscreen;
+    font-size: 30pt;
+}
+
+#hero div{
+    font-size: 18pt;
 }
 
 /* Projects */
@@ -23,13 +33,14 @@ body{
 
 #projects img{
     max-width: 100%;
+    border: 2px solid #630076;
 }
 
 #projects div{
     background-color: #245D9E;
     text-align: center;
     font-size: 25pt;
-    padding: 10px;
+    padding: 5px;
     border:3px solid #57ef3d;
 }
 
@@ -42,17 +53,20 @@ body{
 #reviews{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding: 5px;
+    border:3px solid #57ef3d;
 }
 
 #reviews h2{
     text-align: center;
     font-size: 25pt;
     grid-column: 1/-1;
+    
 }
 
 #reviews {
     
-    font-size: 17pt;
+    font-size: 18pt;
     padding: 2rem;
     max-width: 100rem;
     margin: 0 auto;
@@ -63,10 +77,11 @@ body{
 
 #reviews figure{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-content: center;
+   
+    margin: 0 auto;
     align-items: center;
-    
+    padding: 5px;
+    border:3px solid #57ef3d;
 }
 
 #reviews figcaption{
@@ -76,12 +91,20 @@ body{
     margin-left: 1rem;
 }
 
+#reviews h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #reviews h4{
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+
+
 
 /* Footer */
 footer{
